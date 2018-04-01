@@ -1,0 +1,26 @@
+{
+  "name": "hanna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.0",
+    "webpack": "^4.4.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "ts-loader": "^4.1.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "author": "hanna_podolska",
+  "license": "ISC"
+}
